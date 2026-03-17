@@ -1,4 +1,4 @@
-# ohos_napi_demo
+# ohos_rust_napi_demo
 
 使用`ohos-rs`编译`Rust`代码输出`OpenHarmony`库.
 
