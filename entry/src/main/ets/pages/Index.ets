@@ -10,10 +10,10 @@ struct Index {
       Text(`ArtTS使用Rust编译产物.so示例\n` +
         `testBool->${lib.testBool(false)}\n` +
         `testInt->${lib.testInt(10)}\n` +
-        `testFloat->${lib.testDouble(10.0)}\n` +
+        `testDouble->${lib.testDouble(10.0)}\n` +
         `testString->${lib.testString('hello')}\n` +
         `testArray->${lib.testBytes([1, 2, 3])}\n` +
-        `testArray->${lib.testBuffer(new ArrayBuffer(10))}\n`
+        `testBuffer->${lib.testBuffer(new ArrayBuffer(10))}\n`
       )
         .id('HelloWorld')
         .fontSize($r('app.float.page_text_font_size'))
