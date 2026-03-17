@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# clean
+/Applications/DevEco-Studio.app/Contents/tools/node/bin/node /Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw.js -p product=default clean --analyze=normal --parallel --incremental --daemon
+
+# rebuild
+/Applications/DevEco-Studio.app/Contents/tools/ohpm/bin/ohpm install --all --registry https://ohpm.openharmony.cn/ohpm/ --strict_ssl true

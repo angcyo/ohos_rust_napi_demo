@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# https://ohos.rs/docs/cli/build.html
+# 构建. 默认输出产物在 `./dist/` 目录下.
+# dist
+# ├── arm64-v8a
+# │   └── librust_hello.so
+# ├── armeabi-v7a
+# │   └── librust_hello.so
+# ├── index.d.ts
+# └── x86_64
+#     └── librust_hello.so
+ohrs build --release --arch aarch --arch x64 --arch arm --dist=dist
+
+# https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-dynamic-link-library#section166546365376
+# 需要手动创建,配置文件oh-package.json5
+
+# 复制到上级目录
+cp -r ./dist/ ../entry/libs/
+rm -rf ../entry/libs/index.d.ts
+
+cp ./dist/index.d.ts ../entry/src/main/libs/libRustHello/

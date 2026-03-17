@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.angcyo.myapplication",
+    "bundleName": "com.angcyo.ohos_napi_demo",
     "vendor": "example",
     "versionCode": 1000000,
     "versionName": "1.0.0",

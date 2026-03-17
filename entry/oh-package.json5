@@ -5,6 +5,11 @@
   "main": "",
   "author": "",
   "license": "",
-  "dependencies": {}
+  // ...
+  "dependencies": {
+    // ...
+    // The declared dependency name should match the name of the referenced SO library
+    "libRustHello.so": "file:./src/main/libs/libRustHello"
+  }
 }
 
