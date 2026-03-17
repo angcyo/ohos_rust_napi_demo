@@ -104,6 +104,9 @@ ohrs build --release --arch aarch --arch x64 --arch arm --dist=dist
 import { xxx } from 'librust_hello.so'; // 这里必须要使用和`.so`文件一样的名字.
 ```
 
+- [flutter_rust_ffi](https://github.com/angcyo/flutter_rust_ffi)
+- [ohos_rust_napi_demo](https://github.com/angcyo/ohos_rust_napi_demo)
+
 ---
 **群内有`各(pian)种(ni)各(jin)样(qun)`的大佬,等你来撩.**
 
