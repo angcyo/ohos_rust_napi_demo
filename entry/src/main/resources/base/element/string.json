@@ -10,7 +10,7 @@
     },
     {
       "name": "EntryAbility_label",
-      "value": "ohos_napi_demo"
+      "value": "ohos_rust_napi_demo"
     }
   ]
 }

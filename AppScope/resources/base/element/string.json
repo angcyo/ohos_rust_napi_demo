@@ -2,7 +2,7 @@
   "string": [
     {
       "name": "app_name",
-      "value": "ohos_napi_demo"
+      "value": "ohos_rust_napi_demo"
     }
   ]
 }

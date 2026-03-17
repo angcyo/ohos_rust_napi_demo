@@ -7,7 +7,8 @@ struct Index {
 
   build() {
     RelativeContainer() {
-      Text(`testBool->${lib.testBool(false)}\n` +
+      Text(`ArtTS使用Rust编译产物.so示例\n` +
+        `testBool->${lib.testBool(false)}\n` +
         `testInt->${lib.testInt(10)}\n` +
         `testFloat->${lib.testDouble(10.0)}\n` +
         `testString->${lib.testString('hello')}\n` +
